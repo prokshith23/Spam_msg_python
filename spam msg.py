@@ -1,10 +1,4 @@
-# ============================================================
-# SMS SPAM CLASSIFICATION (FOR spam_sms.csv DATASET)
-# ============================================================
 
-# -----------------------------
-# 1. Imports
-# -----------------------------
 import pandas as pd
 import re
 import string
@@ -129,6 +123,4 @@ print("\nSample Predictions:")
 for sms, pred in zip(sample_sms, predictions):
     print(f"{sms} --> {'Spam' if pred == 1 else 'Ham'}")
 
-# ============================================================
-# END OF PROJECT
-# ============================================================
+
